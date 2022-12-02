@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+* { 
+    box-sizing: border-box 
+}
+
+h1, .form-container, .app-description {
+    text-align: center;
+    width: 50%;
+    margin: 45px auto;
+    
+}
+
+.app-description {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: justify;
+}
+
+.app-description ul {
+    list-style-type: none;
+}
+
+.app-description a {
+    text-decoration: underline;
+    color: #000;
+}
+
+h1 {
+    font-family: 'Unica One', cursive;
+}
+
+h1:hover {
+    text-decoration: underline;
+}
+
+h1 a {
+    font-size: 2em;
+    color: #000;
+    text-decoration: none;
+}
+
+.form-text {
+    display: block;
+    padding: 10px;
+    margin: 10px 0;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius: 10px;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.form-submit {
+    appearance: none;
+    -webkit-appearance: none;
+    padding: 10px;
+    border: none;
+    background-color:#B73E3E;
+    color:#fff;
+    font-weight: 600;
+    border-radius: 20px;
+    width: 100%;
+    cursor: pointer; 
+}
+
+body {
+    background-color: #FCFFE7;
+}
+
+.list-container {
+    width: 50%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.list-container ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.list-container ul li {
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+.list-container ul li:hover {
+    background-color: #dadada;
+}
+
+.list-container ul a {
+    display: flex;
+    align-items:center;
+    padding: 20px 0;
+    text-decoration: none;
+    color: #000;
+}
+
+.list-container ul img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.body-container {
+    width: 80%;
+    margin: 50px auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.concert-list {
+    font-weight: 600;
+    list-style-type: none;
+    padding-left: 0px;
+    margin-bottom: 50px;
+}
+
+.concert-list > li {
+    margin: 20px 0;
+    display: flex;
+}
+
+.concert-date {
+    padding: 20px;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.concert-date span {
+    color: #939393;
+}
+
+.concert-title {
+    padding: 20px;
+    flex-grow: 2;
+    flex-basis: 0;
+}
+
+.concert-list ul {
+    color: #939393;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.artist-image-container {
+    text-align: center;
+}
+
+.artist-image-container img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.body-container h2 {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.body-container h2:not(:first-child) {
+    margin-top: 40px;
+}
+
+.body-container p:first-of-type {
+    text-align: justify;
+}
+
+.body-container #map {
+    width: 50%;
+    margin: 0 auto
+}
+
+.related-artists {
+    text-align: center;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.related-artists li {
+    margin: 10px 0;
+}
+  

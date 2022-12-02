@@ -1,0 +1,10 @@
+extends index
+
+block performersList
+    .list-container
+        if performers.hasResults
+            ul
+                each performer in performers.list
+                    li !{performer}
+        else 
+            p No found results.

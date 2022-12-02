@@ -1,0 +1,8 @@
+extends index 
+
+block artistInformation
+
+    .body-container 
+        .artist-image-container
+            img(src=artist.imageUrl) 
+        div !{artist.description} !{artist.upcomingConcerts} !{artist.createMap} !{artist.relatedArtists}

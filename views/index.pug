@@ -1,0 +1,25 @@
+extends layout
+
+block content 
+    h1 
+        a(href='/') API&nbsp;Mashup 
+
+    .app-description
+        p The application allows fans to track the upcoming concerts of their favorite artists while also viewing the locations visually on a map. Additionally, it suggests a number of artists that are related to their favorite artist.
+        p APIs and JavaScript library used are: 
+        ul 
+            li 
+                a(href='https://platform.seatgeek.com/' target="_blank") SeatGeek API
+            li 
+                a(href='https://tastedive.com/read/api' target="_blank") TasteDive API
+            li 
+                a(href='https://leafletjs.com/examples/quick-start/' target="_blank") Leaflet
+
+    .form-container
+        form#form(action='/' method='POST')
+            input#artist(type='text' class='form-text' name='artist' placeholder='Enter artist name...' required)
+            input(type='submit' value='Search' class='form-submit')
+
+    block artistInformation
+
+    block performersList
