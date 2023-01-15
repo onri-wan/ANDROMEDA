@@ -1,7 +1,7 @@
 {
-  "name": "API_MASHUP",
+  "name": "Andromeda",
   "version": "1.0.0",
-  "description": "Node.js on Docker",
+  "description": "",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"

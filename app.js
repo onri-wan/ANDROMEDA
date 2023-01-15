@@ -7,8 +7,6 @@ const indexRouter = require('./routes/index')
 const performersRouter = require('./routes/seatgeekperformers')
 const eventsRouter = require('./routes/seatgeekevents')
 
-// const helperFunc = require('./')
-
 // View engine setup
 app.set('views', path.join(__dirname, 'views'))
 app.set('view engine', 'pug')
